@@ -5,19 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    
+    public AudioSource buttonSound;
     public void StartMain()
     {
+        DontDestroyOnLoad(buttonSound);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);   // Sahne indexini 1 arttýrýyor (Oyun sahnesine geçmek için)
     }
 
     public void Quit()
     {
+        DontDestroyOnLoad(buttonSound);
         Application.Quit();                              // .exe Dosyalarýný durdurmak için 
         UnityEditor.EditorApplication.isPlaying = false; // Unity Play Modunu durdurmak için -> Bool deðerini false yap
         Debug.Log("Close");                              // Debug.Log kontrolü
     }
     public void BackToMenu() { 
+        DontDestroyOnLoad(buttonSound);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);   // Sahne indexini 1 azaltýyor (Menü sahnesine dönmek için)
     }
 }
