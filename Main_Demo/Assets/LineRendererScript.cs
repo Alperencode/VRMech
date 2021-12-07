@@ -19,8 +19,8 @@ public class LineRendererScript : MonoBehaviour
 
     public void Start()
     {
-        lr.startWidth = startWidth;
-        lr.endWidth = endWidth;
+        // lr.startColor = Color.red;
+        
     }
 
     public void setUpLine(Transform[] points)
