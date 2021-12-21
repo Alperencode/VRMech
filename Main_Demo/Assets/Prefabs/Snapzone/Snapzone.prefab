@@ -181,7 +181,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -4302144772675734484}
         m_TargetAssemblyTypeName: SnapzoneTest, Assembly-CSharp
-        m_MethodName: SnapzoneEnterTrigger
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -208,11 +208,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -4302144772675734484}
         m_TargetAssemblyTypeName: SnapzoneTest, Assembly-CSharp
-        m_MethodName: SnapzoneExitTrigger
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -88,7 +88,7 @@ public class CableComponent : MonoBehaviour
 
 	#region Render Pass
 
-	void Update()
+	void LateUpdate()
 	{
 		RenderCable();
 	}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4356339506722819797}
   - component: {fileID: 8452299507790081120}
   m_Layer: 0
-  m_Name: Cube start
+  m_Name: Cable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 3395574930471230857}
   - component: {fileID: 3395574930471230856}
   m_Layer: 0
-  m_Name: Cube end
+  m_Name: Cable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
