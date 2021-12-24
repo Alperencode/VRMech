@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4064103250929439776}
   - component: {fileID: 4064103250929439779}
   - component: {fileID: 4064103250929439777}
-  - component: {fileID: -4302144772675734484}
+  - component: {fileID: 7696690343929284992}
   m_Layer: 0
   m_Name: Snapzone
   m_TagString: Untagged
@@ -179,17 +179,17 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -4302144772675734484}
-        m_TargetAssemblyTypeName: SnapzoneTest, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 7696690343929284992}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 4064103250929439779}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
@@ -206,13 +206,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -4302144772675734484}
-        m_TargetAssemblyTypeName: SnapzoneTest, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 7696690343929284992}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -236,15 +236,15 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
---- !u!114 &-4302144772675734484
+--- !u!114 &7696690343929284992
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4064103250929439791}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ea1f9405f479fd49a42ef246b231175, type: 3}
+  m_Script: {fileID: 11500000, guid: c57a44761650e0149a4fa8754927676a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
