@@ -19,13 +19,12 @@ public class collisionCheck : MonoBehaviour
         {
             Debug.Log("LedCheck bool need to be true");
             led.GetComponent<LedScript>().LedCheck = true;
-        }else if(other.gameObject.name == "PowerCable")
+
+        }
+        else if(other.gameObject.name == "PowerCable")
         {
             Debug.Log("PowerCheck bool need to be true");
             led.GetComponent<LedScript>().PowerCheck = true;
         }
     }
-
-
-
 }

@@ -11,8 +11,10 @@ public class LedScript : MonoBehaviour
     public bool PowerCheck;
     public bool LedCheck;
     bool canLedBeOn;
+
     void Start()
     {
+
         renderer = GetComponent<Renderer>();
         material = renderer.material;
         emissionColor = Color.red;
@@ -38,7 +40,6 @@ public class LedScript : MonoBehaviour
             Activate(toggle, Random.Range(0.5f, 2f));
             toggle = !toggle;
         }
-
     }
     */
 
